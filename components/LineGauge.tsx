@@ -72,7 +72,8 @@ const LineGauge = (props: Props) => {
 					style={styles.scrollViewContainer}
 					showsHorizontalScrollIndicator={false}
 					onScroll={_handleScroll}
-					onScrollEndDrag={_handleScrollEnd}
+                    // onScrollEndDrag={_handleScrollEnd}
+                    onMomentumScrollEnd={_handleScroll}
 					bounces={false}
 					horizontal
 					scrollEventThrottle={16}
