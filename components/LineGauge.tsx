@@ -73,7 +73,7 @@ const LineGauge = (props: Props) => {
 					showsHorizontalScrollIndicator={false}
 					onScroll={_handleScroll}
                     // onScrollEndDrag={_handleScrollEnd}
-                    onMomentumScrollEnd={_handleScroll}
+                    onMomentumScrollEnd={_handleScrollEnd}
 					bounces={false}
 					horizontal
 					scrollEventThrottle={16}
